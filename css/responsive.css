@@ -1,0 +1,306 @@
+@media screen and (min-width: 768px) and (max-width: 1024px){
+
+    html, body { min-width: 760px; }   
+
+    header > .content, main > .info > .content, main > .services > .content, main > .music > .content { width: 690px; }
+
+    header > .content > .join { margin-top: 140px; margin-left: 350px; }
+
+    main > .info { height: 480px; }
+
+    main > .services { height: 380px; }
+
+    main > .services > .content > .seo { width: 230px; }
+
+    main > .services > .content > .seo > .image_wrap { padding: 34px 0px 0px 15px; }
+
+    main > .services > .content > .seo > .h3 { padding: 34px 0px 0px 8px; }
+
+    main > .services > .content > .seo > .text { padding-left: 15px; padding-right: 15px; height: 225px; }
+
+    main > .services > .content > .seo > .button_wrap { margin-right: 15px; padding-right: 0px; }
+
+    main > .services > .content > .responsive { width: 230px; }
+
+    main > .services > .content > .responsive > .image_wrap { padding: 34px 0px 0px 15px; }
+
+    main > .services > .content > .responsive > .h3 { padding: 34px 0px 0px 8px; }
+
+    main > .services > .content > .responsive > .text { padding-left: 15px; padding-right: 15px; }
+
+    main > .services > .content > .responsive > .button_wrap { margin-right: 15px; }
+
+    main > .services > .content > .cloud { width: 230px; }
+
+    main > .services > .content > .cloud > .image_wrap { padding: 34px 0px 0px 15px; }
+
+    main > .services > .content > .cloud > .h3 { padding: 34px 0px 0px 8px; }
+
+    main > .services > .content > .cloud > .text { padding-left: 15px; padding-right: 0px;  height: 225px; }   
+}
+
+@media screen and (min-width: 600px) and (max-width: 768px){
+
+    html, body { min-width: 590px; }
+
+    header { background-position: center; }
+
+    header > .content, main > .info > .content, main > .services > .content, main > .music > .content { width: 540px; }
+
+    header > .content > .join { float: none; margin: 0 auto; padding-top: 138px; }
+
+    main > .info { height: 520px; }
+
+    main > .info > .content > .info_center { padding-right: 40px; padding-left: 40px; }
+
+    main > .services { height: 912px;  background: #fff; }
+
+    main > .services > .content > .seo { width: 540px; height: 304px; float: none; margin: 0 auto; position: relative; }
+
+    main > .services > .content > .seo::before { content: " "; display: block; width: 200px; height: 304px; background: #404040; position: absolute; margin-left: -200px; }
+
+    main > .services > .content > .seo::after { content: " "; display: block; width: 200px; height: 304px; background: #404040; position: absolute; margin-left: 540px; }
+
+    main > .services > .content > .seo > .image_wrap { padding-top: 66px; padding-left: 40px; }
+
+    main > .services > .content > .seo > .h3 { padding-top: 66px; }
+
+    main > .services > .content > .seo > .text { padding-left: 40px; padding-right: 45px; }
+
+    main > .services > .content > .seo > .button_wrap { margin-right: 45px; padding-right: 0px; }
+
+    main > .services > .content > .responsive { width: 540px; height: 304px; float: none; margin: 0 auto; position: relative; }
+
+    main > .services > .content > .responsive::before { content: " "; display: block; width: 200px; height: 304px; background: #f74c55; position: absolute; margin-left: -200px; }
+
+    main > .services > .content > .responsive::after { content: " "; display: block; width: 200px; height: 304px; background: #f74c55; position: absolute; margin-left: 540px; }
+
+    main > .services > .content > .responsive > .image_wrap { padding-top: 66px; padding-left: 40px; }
+
+    main > .services > .content > .responsive > .h3 { padding-top: 66px; }
+
+    main > .services > .content > .responsive > .text { padding-left: 40px; padding-right:45px; }
+
+    main > .services > .content > .cloud { width: 540px; height: 304px; float: none; margin: 0 auto; position: relative; }
+
+    main > .services > .content > .cloud::before { content: " "; display: block; width: 200px; height: 304px; background: #2d5f3b; position: absolute; margin-left: -200px; }
+
+    main > .services > .content > .cloud::after { content: " "; display: block; width: 200px; height: 304px; background: #2d5f3b; position: absolute; margin-left: 540px; }
+
+    main > .services > .content > .cloud > .image_wrap { padding-top: 66px; }
+
+    main > .services > .content > .cloud > .h3 { padding-top: 66px; }
+
+    main > .services > .content > .cloud > .text { padding-left: 40px; padding-right:45px; }
+
+    main > .services > .content > .cloud > .button_wrap { margin-right: 45px; }
+
+    main > .music > .content > .view_more > .text { font-size: 34px; }
+}
+
+@media screen and (min-width: 480px) and (max-width: 600px){
+
+    html, body { min-width: 300px; }
+
+    header { background-position: center; }
+
+    header > .content, main > .info > .content, main > .services > .content, main > .music > .content { width: 432px; }
+
+    header > .content > .menu_logo > .logo_wrap { display: table; margin: 0 auto; padding-top: 15px; }
+
+    header > .content > .menu_logo > .nav { display: table; float: none; margin: 0 auto; padding-top: 0px; }
+
+    header > .content > .menu_logo > .nav > .li { padding: 15px 10px 0 10px; }
+
+    header > .content > .menu_logo > .nav > .li > a { font-size: 17px; }
+
+    header > .content > .join { float: none; margin: 0 auto; padding-top: 100px; }
+
+    header > .content > .join > .h1 { margin: 0 auto; }
+
+    header > .content > .join > .text { margin: 0 auto; }
+
+    header > .content > .join > .button_join { margin: 0 auto; }
+
+    main > .info { height: 560px; }
+
+    main > .info > .content > .info_center { padding-right: 40px; padding-left: 40px; }
+
+    main > .info > .content > .info_center > .h2 { font-size: 24px; margin: 43px 0px 0px 0px; }
+
+    main > .services { height: 912px; background: #fff; }
+
+    main > .services > .content > .seo { width: 460px; height: 304px; float: none; margin: 0 auto; }
+
+    main > .services > .content > .seo::before { content: " "; display: block; width: 200px; height: 304px; background: #404040; position: absolute; margin-left: -200px; }
+
+    main > .services > .content > .seo::after { content: " "; display: block; width: 200px; height: 304px; background: #404040; position: absolute; margin-left: 460px; }
+
+    main > .services > .content > .seo > .image_wrap { padding-left: 40px; }
+
+    main > .services > .content > .seo > .text { padding-left: 40px; padding-right: 45px; }
+
+    main > .services > .content > .seo > .button_wrap { margin-right: 45px; padding-right: 0px; }
+
+    main > .services > .content > .responsive { width: 460px; height: 304px; float: none; margin: 0 auto; }
+
+    main > .services > .content > .responsive::before { content: " "; display: block; width: 200px; height: 304px; background: #f74c55; position: absolute; margin-left: -200px; }
+
+    main > .services > .content > .responsive::after { content: " "; display: block; width: 200px; height: 304px; background: #f74c55; position: absolute; margin-left: 460px; }
+
+    main > .services > .content > .responsive > .image_wrap { padding-left: 40px; }
+
+    main > .services > .content > .responsive > .text { padding-left: 40px; padding-right:45px; }
+
+    main > .services > .content > .cloud { width: 460px; height: 304px; float: none; margin: 0 auto; }
+
+    main > .services > .content > .cloud::before { content: " "; display: block; width: 200px; height: 304px; background: #2d5f3b; position: absolute; margin-left: -200px; }
+
+    main > .services > .content > .cloud::after { content: " "; display: block; width: 200px; height: 304px; background: #2d5f3b; position: absolute; margin-left: 460px; }
+
+    main > .services > .content > .cloud > .text { padding-left: 40px; padding-right:45px; }
+
+    main > .services > .content > .cloud > .button_wrap { margin-right: 45px; }
+
+    main > .music > .content > .view_more > .text { font-size: 30px; }
+
+    main > .music > .content > .view_more > .button_music > button { width: 150px; font-size: 20px; }
+}
+
+@media screen and (min-width: 300px) and (max-width: 480px){
+
+    html, body { min-width: 300px; }
+
+    header { background: #f74c55; }
+
+    header > .content, main > .info > .content, main > .services > .content, main > .music > .content { width: 280px; }
+
+    header > .content > .menu_logo > .logo_wrap { display: table; margin: 0 auto; padding-top: 15px; }
+
+    header > .content > .menu_logo > .nav { display: table; float: none; margin: 0 auto; padding-top: 0px; }
+    
+    header > .content > .menu_logo > .nav > .li { float: none; height: 30px; margin: 0 auto; padding: 10px 10px 0 10px; }
+
+    header > .content > .menu_logo > .nav > .li > a { font-size: 17px; }
+
+    header > .content > .join { float: none; margin: 0 auto; padding-top: 60px; }
+
+    header > .content > .join > .h1 { font-size: 34px; margin: 0 auto; }
+
+    header > .content > .join > .text { margin: 0 auto; font-size: 14px; }
+
+    header > .content > .join > .button_join { margin: 0 auto; }
+
+    header > .content > .join > .button_join > button { width: 120px; font-size: 18px; }
+
+    main > .info { height: 560px; }
+
+    main > .info > .content > .info_center { padding-right: 10px; padding-left: 10px; }
+
+    main > .info > .content > .info_center > .h2 { font-size: 18px; margin: 43px 0px 0px 0px; }
+
+    main > .info > .content > .info_center > .text { font-size: 14px; line-height: 1.6;  margin: 18px 0px 30px 0px; } 
+
+    main > .services { height: 912px; background: #fff; }
+
+    main > .services > .content > .seo { width: 300px; height: 304px; float: none; margin: 0 auto; }
+
+    main > .services > .content > .seo::before { content: " "; display: block; width: 200px; height: 304px; background: #404040; position: absolute; margin-left: -200px; }
+
+    main > .services > .content > .seo::after { content: " "; display: block; width: 200px; height: 304px; background: #404040; position: absolute; margin-left: 300px; }
+
+    main > .services > .content > .seo > .image_wrap { padding-left: 40px; }
+
+    main > .services > .content > .seo > .text { font-size: 14px; padding-left: 20px; padding-right: 25px; }
+
+    main > .services > .content > .seo > .button_wrap { margin-right: 45px; padding-right: 0px; }
+
+    main > .services > .content > .responsive { width: 300px; height: 304px; float: none; margin: 0 auto; }
+
+    main > .services > .content > .responsive::before { content: " "; display: block; width: 200px; height: 304px; background: #f74c55; position: absolute; margin-left: -200px; }
+
+    main > .services > .content > .responsive::after { content: " "; display: block; width: 200px; height: 304px; background: #f74c55; position: absolute; margin-left: 300px; }
+
+    main > .services > .content > .responsive > .image_wrap { padding-left: 40px; }
+
+    main > .services > .content > .responsive > .text { padding-left: 20px; padding-right:25px; }
+
+    main > .services > .content > .cloud { width: 300px; height: 304px; float: none; margin: 0 auto; }
+
+    main > .services > .content > .cloud::before { content: " "; display: block; width: 200px; height: 304px; background: #2d5f3b; position: absolute; margin-left: -200px; }
+
+    main > .services > .content > .cloud::after { content: " "; display: block; width: 200px; height: 304px; background: #2d5f3b; position: absolute; margin-left: 300px; }
+
+    main > .services > .content > .cloud > .text { padding-left: 20px; padding-right:25px; }
+
+    main > .services > .content > .cloud > .button_wrap { margin-right: 45px; }
+
+    main > .music > .content > .view_more > .text { font-size: 21px; }
+
+    main > .music > .content > .view_more > .button_music > button { width: 120px; font-size: 18px; }
+
+    footer >  p { font-size: 14px; }
+}
+
+@media screen and (min-width: 0px) and (max-width: 300px){
+
+    html, body { min-width: 300px; }
+
+    header {background: #f74c55;}
+
+    header > .content, main > .info > .content, main > .services > .content, main > .music > .content { width: 280px; } 
+
+    header > .content > .menu_logo > .logo_wrap { display: table; margin: 0 auto; padding-top: 15px; }
+
+    header > .content > .menu_logo > .nav { display: table; float: none; margin: 0 auto; padding-top: 0px; }
+
+    header > .content > .menu_logo > .nav > .li { float: none; height: 30px; margin: 0 auto;  padding: 10px 10px 0 10px; }
+
+    header > .content > .menu_logo > .nav > .li > a { font-size: 17px; }
+
+    header > .content > .join { float: none; margin: 0 auto; padding-top: 60px; }
+
+    header > .content > .join > .h1 { font-size: 34px; margin: 0 auto; }
+
+    header > .content > .join > .text { margin: 0 auto;  font-size: 14px; }
+
+    header > .content > .join > .button_join { margin: 0 auto; }
+
+    header > .content > .join > .button_join > button { width: 120px; font-size: 18px; }
+
+    main > .info { height: 560px; }
+
+    main > .info > .content > .info_center { padding-right: 10px; padding-left: 10px; }
+
+    main > .info > .content > .info_center > .h2 { font-size: 18px; margin: 43px 0px 0px 0px; }
+
+    main > .info > .content > .info_center > .text { font-size: 14px; line-height: 1.6;  margin: 18px 0px 30px 0px; } 
+
+    main > .services { height: 912px; background: #fff; }
+
+    main > .services > .content > .seo { width: 300px; height: 304px; float: none; margin: 0 auto; }
+
+    main > .services > .content > .seo > .image_wrap { padding-left: 40px; }
+
+    main > .services > .content > .seo > .text { font-size: 14px; padding-left: 20px; padding-right: 25px; }
+
+    main > .services > .content > .seo > .button_wrap { margin-right: 45px; padding-right: 0px; }
+
+    main > .services > .content > .responsive { width: 300px; height: 304px; float: none; margin: 0 auto; }
+
+    main > .services > .content > .responsive > .image_wrap { padding-left: 40px; }
+
+    main > .services > .content > .responsive > .text { padding-left: 20px; padding-right:25px; }
+
+    main > .services > .content > .cloud { width: 300px; height: 304px; float: none; margin: 0 auto; }
+
+    main > .services > .content > .cloud > .text { padding-left: 20px; padding-right:25px; }
+
+    main > .services > .content > .cloud > .button_wrap { margin-right: 45px; }
+
+    main > .music > .content > .view_more > .text { font-size: 18px; }
+
+    main > .music > .content > .view_more > .button_music > button { width: 120px; font-size: 18px; }
+    
+    footer >  p { font-size: 14px; }
+}
