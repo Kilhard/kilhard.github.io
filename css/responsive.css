@@ -100,7 +100,7 @@
 
 @media screen and (min-width: 480px) and (max-width: 600px){
 
-    html, body { min-width: 300px; }
+    html, body { min-width: 300px; overflow-x: hidden; }
 
     header { background-position: center; }
 
@@ -169,7 +169,7 @@
 
 @media screen and (min-width: 300px) and (max-width: 480px){
 
-    html, body { min-width: 300px; }
+    html, body { min-width: 300px; overflow-x: hidden;}
 
     header { background: #f74c55; }
 
@@ -244,7 +244,7 @@
 
 @media screen and (min-width: 0px) and (max-width: 300px){
 
-    html, body { min-width: 300px; }
+    html, body { min-width: 300px; overflow-x: hidden;}
 
     header {background: #f74c55;}
 
