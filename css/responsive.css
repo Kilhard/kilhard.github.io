@@ -41,7 +41,7 @@
 
 @media screen and (min-width: 600px) and (max-width: 768px){
 
-    html, body { min-width: 590px; }
+    html, body { min-width: 590px;  overflow-x: hidden;}
 
     header { background-position: center; }
 
